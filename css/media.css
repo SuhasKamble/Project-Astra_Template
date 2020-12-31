@@ -1,0 +1,118 @@
+@media(max-width:900px){
+    .hero{
+        height: 70vh;
+    }
+    .hero-container{
+        height: 60vh;
+    }
+    .burger{
+        display: block;
+        margin-right: 10px;
+    }
+    .navbar{
+        background: var(--secondary-color);
+    }
+    .navbar .logo {
+        margin-left: 10px;
+    }
+    .navbar .logo img{
+        filter: invert(0);
+    }
+    .nav-links{
+        position: absolute;
+        flex-direction: column;
+        top: 0;
+        left: -100%;
+        height: 100%;
+        width: 100%;
+        background-color: white;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        padding: 0 1rem;
+        transition: all 0.3s ease;
+    }
+    .nav-links.show{
+        left: 0%;
+    }
+    .nav-links li{
+        width: 100%;
+        border-bottom: 1px solid black;
+        padding-bottom: 10px;
+    }
+    .nav-links li a{
+        color: black;
+    }
+    .nav-links .btn {
+        color: white;
+    }
+    .hero-text h3{
+        font-size: 1.4rem;
+    }
+    .hero-text h1{
+        font-size: 2.6rem;
+    }
+    .quote{
+        height: 300px;
+        padding: 1rem;
+        
+    }
+    .quote .img-quote img{
+        height: 100px;
+        width: 100px;
+        object-fit: contain;
+    }
+    .quote .max-width{
+        flex-direction: column;
+        text-align: center;
+    }
+    .events{
+        height: auto;
+    }
+  
+    .events .heading h1{
+        font-size: 2rem;
+    }
+    .event-container{
+        grid-template-columns: 1fr;
+        gap: 4rem;
+    }
+    .none{
+        display: none;
+    }
+    .explore .max-width{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .explore-box{
+        width: 100%;
+        /* background-color: lightblue; */
+        align-items: center;
+    }
+    
+    .explore-box{
+        padding: 0 1rem;
+    }
+    .tour-container{
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    .tour-text{
+        align-items: center;
+        justify-content: center;
+        /* padding-left: 20px;
+        padding-right: 20px; */
+    }
+    .tour-img{
+        align-items: center;
+        justify-content: center;
+    }
+    .tour-img img{
+        margin-top: 10px;
+        margin-bottom: 0;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .footer p{
+        font-size: 14px;
+    }
+}
