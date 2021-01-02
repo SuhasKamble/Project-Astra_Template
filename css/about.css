@@ -1,0 +1,89 @@
+.about{
+    height: 60vh;
+    background: rgba(0, 0, 0, 0.23) url('..//img/about-bg-5.jpg')no-repeat center center/cover;
+    background-blend-mode: darken;
+}
+img{
+    width: 100%;
+}
+.about-container{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.about-container h1{
+    font-size: 3.5rem;
+    color: white;
+}
+
+.mission{
+    height: auto;
+    padding: 3rem 0;
+
+}
+.mission-container{
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 50px;
+}
+
+.mission-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 2rem;
+}
+.mission-text h1{
+    font-size: 2.2rem;
+}
+.mission-text .line{
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.mission-text p{
+    line-height: 1.7rem;
+}
+.mission-para{
+    margin-bottom: 2rem;
+}
+.mission-img{
+    padding: 2rem;
+}
+
+.mission-img img{
+    border-radius: 5px;
+}
+.burger .fa{
+    color: white;
+}
+
+
+
+@media(max-width:900px){
+    .about{
+        height: 50vh;
+    }
+    .about-container{
+        height: 40vh;
+    }
+    .about-container h1{
+        font-size: 2.4rem;
+    }
+    .mission-container{
+        grid-template-columns: 1fr;
+        gap: 20px;
+        text-align: center;
+
+    
+    }
+    .mission-text{
+        align-items: center;
+    }
+    .mission{
+        padding: 0 1rem;
+    }
+}
